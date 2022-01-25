@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let person = {
+        name: "홍길동",
+        age: "25",
+        gender: "남",
+        address: "광주",
+        favMovie: "어벤져스, 캡틴마블",
+        favFood: "김치, 몬스터버거",
+        greeting: function () {
+          console.log(this.name + this.age + this.gender);
+        },
+      };
+
+      person.greeting();
+    </script>
+  </body>
+</html>
